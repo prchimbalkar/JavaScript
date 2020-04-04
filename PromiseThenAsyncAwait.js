@@ -12,7 +12,7 @@ const fnPromise = (flag) => {
 //promise then
 fnPromise(true).then((result) => {
 	console.log(result);
-});
+}).catch((err) => {console.log(err);});
 
 //async await
 (async() => {
