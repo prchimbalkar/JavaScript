@@ -12,3 +12,6 @@ const fnParent = (() => {
 		fnAlert: fnAlertStr
 		};
 })();
+
+//Call 
+//fnParent.fnHello('Pankaj');
